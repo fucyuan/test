@@ -1,0 +1,5 @@
+/home/fcy/zuoye/my_project/CMakeFiles/rebuild_cache.dir
+/home/fcy/zuoye/my_project/CMakeFiles/main.dir
+/home/fcy/zuoye/my_project/CMakeFiles/edit_cache.dir
+/home/fcy/zuoye/my_project/CMakeFiles/hello_shared.dir
+/home/fcy/zuoye/my_project/CMakeFiles/hello_static.dir

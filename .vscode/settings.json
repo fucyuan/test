@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.sdf": "cpp",
+        "iostream": "cpp"
+    }
+}
