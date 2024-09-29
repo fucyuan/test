@@ -2,6 +2,7 @@
     "files.associations": {
         "*.sdf": "cpp",
         "iostream": "cpp",
-        "future": "cpp"
+        "future": "cpp",
+        "stdexcept": "cpp"
     }
 }

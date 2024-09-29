@@ -40,3 +40,23 @@ void transfer(Account& lhs, Account& rhs, int amount) {
         std::cout << "Insufficient funds to transfer from Account A to Account B." << std::endl;
     }
 }
+int main() {
+    Account accountA(100);  // 账户A余额为100
+    Account accountB(50);   // 账户B余额为50
+
+    // 启动两个线程，模拟转账操作
+    std::thread t1(transfer, std::ref(accountA), std::ref(accountB), 10);  // 从A转10元到B
+    std::thread t2(transfer, std::ref(accountB), std::ref(accountA), 20);  // 从B转20元到A
+
+    // 等待线程完成
+    t1.join();
+    t2.join();
+
+    // 输出结果
+    std::cout << "Final balance of Account A: ";
+    accountA.show_balance();
+    std::cout << "Final balance of Account B: ";
+    accountB.show_balance();
+
+    return 0;
+}
