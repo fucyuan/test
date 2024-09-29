@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.sdf": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "future": "cpp"
     }
 }
